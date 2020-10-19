@@ -305,7 +305,7 @@ class Builder
             if (!in_array($etype, ['image', 'file', 'multiple_image', 'multiple_file'])) {
 
                 if ($mode == static::UPDATE) {
-                    $field->rules('required');
+                    //$field->rules('required');
                 }
             }
 
@@ -316,7 +316,7 @@ class Builder
                 $field->uniqueName();
             } else {
                 if ($mode == static::UPDATE) {
-                    $field->rules('required');
+                    //$field->rules('required');
                 }
             }
         }
@@ -424,7 +424,10 @@ class Builder
         } else if ($type == 'normal') {
 
             $type = Arr::get($options, '__element__', 'text');
-        } else if ($type == 'radio_group' || $type == 'yes_or_no') {
+        } else if ($type == 'radio_group' ) {
+
+            $type = 'radio';
+        } else if ($type == 'yes_or_no') {
 
             $type = 'radio';
         } else if ($type == 'checkbox_group') {
@@ -439,6 +442,9 @@ class Builder
         } else if ($type == 'multiple_file') {
 
             $type = 'multipleFile';
+        } else if ($type == 'map') {
+
+            $type = 'map';
         }
 
         return $type;
