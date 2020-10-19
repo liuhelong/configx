@@ -196,9 +196,9 @@ class Updater
 
     protected static function saveValue($columns, $value)
     {
-        if ($value == null || $value == '') {
+        /* if ($value == null || $value == '') {
             return;
-        }
+        } */
 
         $key = $columns;
 
