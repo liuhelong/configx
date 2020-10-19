@@ -1,14 +1,14 @@
 <?php
 
-namespace Ichynul\Configx\Tools;
+namespace Liuhelong\laravelAdmin\Configx\Tools;
 
 use Encore\Admin\Facades\Admin;
 use Encore\Admin\Form\Field\Hidden;
 use Encore\Admin\Layout\Content;
 use Encore\Admin\Widgets\Tab as Wtab;
-use Ichynul\Configx\ConfigxModel;
-use Ichynul\Configx\Field\Outer;
-use Ichynul\Configx\FormWgt;
+use Liuhelong\laravelAdmin\Configx\ConfigxModel;
+use Liuhelong\laravelAdmin\Configx\Field\Outer;
+use Liuhelong\laravelAdmin\Configx\FormWgt;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Arr;
 
