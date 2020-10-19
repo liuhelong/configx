@@ -1,11 +1,11 @@
 <?php
 
-namespace Ichynul\Configx\Tools;
+namespace Liuhelong\laravelAdmin\Configx\Tools;
 
 use Encore\Admin\Form\Field\MultipleFile;
 use Encore\Admin\Form\Field\MultipleSelect;
-use Ichynul\Configx\Configx;
-use Ichynul\Configx\ConfigxModel;
+use Liuhelong\laravelAdmin\Configx\Configx;
+use Liuhelong\laravelAdmin\Configx\ConfigxModel;
 use Illuminate\Support\Arr;
 use Illuminate\Support\MessageBag;
 
