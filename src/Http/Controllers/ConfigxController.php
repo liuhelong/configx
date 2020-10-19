@@ -1,13 +1,13 @@
 <?php
 
-namespace Ichynul\Configx\Http\Controllers;
+namespace Liuhelong\laravelAdmin\Configx\Http\Controllers;
 
 use Encore\Admin\Form\Field;
 use Encore\Admin\Form\Field\MultipleFile;
-use Ichynul\Configx\ConfigxModel;
-use Ichynul\Configx\Tools\Displayer;
-use Ichynul\Configx\Tools\Tool;
-use Ichynul\Configx\Tools\Updater;
+use Liuhelong\laravelAdmin\Configx\ConfigxModel;
+use Liuhelong\laravelAdmin\Configx\Tools\Displayer;
+use Liuhelong\laravelAdmin\Configx\Tools\Tool;
+use Liuhelong\laravelAdmin\Configx\Tools\Updater;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 
