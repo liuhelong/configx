@@ -1,11 +1,11 @@
 <?php
 
-namespace Ichynul\Configx;
+namespace Liuhelong\laravelAdmin\Configx;
 
 use Illuminate\Support\ServiceProvider;
 use Encore\Admin\Form;
 use Encore\Admin\Admin;
-use Ichynul\Configx\Field\TestText;
+use Liuhelong\laravelAdmin\Configx\Field\TestText;
 
 class ConfigxServiceProvider extends ServiceProvider
 {
