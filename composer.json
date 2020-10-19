@@ -1,13 +1,13 @@
 {
-    "name": "liuhelong/configx",
+    "name": "liuhelong/laravel-admin-configx",
     "description": "laravel-admin extension configx",
     "type": "library",
     "keywords": ["laravel-admin", "extension"],
-    "homepage": "https://github.com/ichynul/configx",
+    "homepage": "https://github.com/liuhelong/configx/",
     "license": "MIT",
     "authors": [{
-        "name": "ichynul",
-        "email": "ichynul@outlook.com"
+        "name": "goatherd",
+        "email": "854583481@qq.com"
     }],
     "require": {
         "php": ">=7.0.0",
@@ -20,13 +20,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Ichynul\\Configx\\": "src/"
+            "Liuhelong\\laravelAdmin\\Configx\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Ichynul\\Configx\\ConfigxServiceProvider"
+                "Liuhelong\\laravelAdmin\\Configx\\ConfigxServiceProvider"
             ]
 
         }
