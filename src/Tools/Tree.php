@@ -1,9 +1,9 @@
 <?php
 
-namespace Ichynul\Configx\Tools;
+namespace Liuhelong\laravelAdmin\Configx\Tools;
 
 use Encore\Admin\Facades\Admin;
-use Ichynul\Configx\ConfigxModel;
+use Liuhelong\laravelAdmin\Configx\ConfigxModel;
 use Illuminate\Support\Arr;
 
 class Tree
