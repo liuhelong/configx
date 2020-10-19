@@ -7,7 +7,7 @@ need to install laravel-admin-ext/config first, see https://github.com/laravel-a
 Then run :
 
 ```
-$ composer require ichynul/configx
+$ composer require liuhelong/configx
 ```
 
 Then run:
