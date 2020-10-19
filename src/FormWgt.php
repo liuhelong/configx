@@ -1,6 +1,6 @@
 <?php
 
-namespace Ichynul\Configx;
+namespace Liuhelong\laravelAdmin\Configx;
 
 use Encore\Admin\Widgets\Form;
 
