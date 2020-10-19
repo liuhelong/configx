@@ -1,6 +1,6 @@
 <?php
 
-namespace Ichynul\Configx\Field;
+namespace Liuhelong\laravelAdmin\Configx\Field;
 
 use Encore\Admin\Form\Field;
 
